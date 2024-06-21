@@ -4,6 +4,8 @@ import com.sun.net.httpserver.*;
 import org.example.handlers.GoodHandler;
 import org.example.handlers.GoodsHandler;
 import org.example.handlers.LoginHandler;
+import org.example.utils.Auth;
+
 import java.net.InetSocketAddress;
 
 public class Main {

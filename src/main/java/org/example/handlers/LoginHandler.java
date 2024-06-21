@@ -3,7 +3,7 @@ package org.example.handlers;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import org.example.JwtUtil;
+import org.example.utils.JwtUtil;
 
 import java.io.IOException;
 import java.io.OutputStream;

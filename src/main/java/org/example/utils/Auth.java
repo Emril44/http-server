@@ -1,8 +1,9 @@
-package org.example;
+package org.example.utils;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.Authenticator;
 import com.sun.net.httpserver.HttpPrincipal;
+import org.example.utils.JwtUtil;
 
 public class Auth extends Authenticator {
     @Override
